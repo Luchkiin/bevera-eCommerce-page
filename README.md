@@ -5,7 +5,7 @@
   </a>
   <h1 align="center">BEVERA eCommerce Page</h1>
   <p align="center">
-    :arrow_forward: <a href="https://luchkiin.github.io/bevera-eCommerce-page/"> Live Demo</a>
+    :arrow_forward: <a href="https://luchkiin.github.io/bevera-eCommerce-page/" target="_blank"> Live Demo</a>
   </p>
 </p>
 
