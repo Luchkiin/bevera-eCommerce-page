@@ -1,2 +1,27 @@
-# bevera-eCommerce-page
-Online eCommerce page for a fictional company called BEVERA
+<br />
+<p align="center">
+  <a href="#">
+    <img src="https://github.com/Luchkiin/techflake-online-help-page/blob/master/images/techflake_logo.png" alt="Logo" width="150" height="150">
+  </a>
+  <h1 align="center">BEVERA eCommerce Page</h1>
+  <p align="center">
+    :arrow_forward: <a href="https://luchkiin.github.io/techflake-online-help-page/"> Live Demo</a>
+  </p>
+</p>
+
+## About the Project
+
+<img src="https://github.com/Luchkiin/techflake-online-help-page/blob/master/images/techflake-project-overview-green.png" alt="Logo" width="1280" height="500">
+
+This project acts as a static webpage consisting of HTML, CSS and JavaScript. I created this project as a school project which acts as a eCommerce site for selling alcoholic beverages.
+
+## Built With
+* HTML
+* CSS
+* JavaScript
+
+## Contact
+:email: <a href="mailto:lucas.rosendahl95@gmail.com">lucas.rosendahl95@gmail.com</a>
+<br>
+:link: <a href="https://luchkiin.github.io/techflake-online-help-page/" target="_blank">Project Link</a>
+<br>
