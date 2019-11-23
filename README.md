@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="https://github.com/Luchkiin/techflake-online-help-page/blob/master/images/techflake_logo.png" alt="Logo" width="150" height="150">
+    <img src="https://github.com/Luchkiin/bevera-eCommerce-page/blob/master/images/readme-logo.png" alt="Logo" width="150" height="150">
   </a>
   <h1 align="center">BEVERA eCommerce Page</h1>
   <p align="center">
