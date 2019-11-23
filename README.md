@@ -5,7 +5,7 @@
   </a>
   <h1 align="center">BEVERA eCommerce Page</h1>
   <p align="center">
-    :arrow_forward: <a href="https://luchkiin.github.io/techflake-online-help-page/"> Live Demo</a>
+    :arrow_forward: <a href="https://luchkiin.github.io/bevera-eCommerce-page/"> Live Demo</a>
   </p>
 </p>
 
@@ -23,6 +23,6 @@ This project acts as a static webpage consisting of HTML, CSS and JavaScript. I 
 ## Contact
 :email: <a href="mailto:lucas.rosendahl95@gmail.com">lucas.rosendahl95@gmail.com</a>
 <br>
-:link: <a href="https://luchkiin.github.io/techflake-online-help-page/" target="_blank">Project Link</a>
+:link: <a href="https://luchkiin.github.io/bevera-eCommerce-page/" target="_blank">Project Link</a>
 <br>
 :globe_with_meridians: <a href="https://lucasrosendahl.com" target="_blank">Portfolio</a>
