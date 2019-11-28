@@ -1963,18 +1963,16 @@ footer {
     }
     .upper-header-container {
         display: flex;
-        justify-content: space-between;
         padding-bottom: 2em;
     }
-    .logo-img-header {
-        width: 50%;
-    }
+
     .logo-container {
-        text-align: right;
-        padding-left: 2.5em;
+        text-align: center;
+        flex: 1;
     }
     .icons-align-right a {
-        padding-left: .8em;
+        padding-left: .7em;
+        flex: 1;
     }
     .fa-user {
         font-size: 1.1em;
@@ -2031,6 +2029,7 @@ footer {
     .menu-icons {
         display: block;
         padding-top: 1em;
+        flex: 1;
     }
     .close-menu {
         display: none !important;
@@ -2142,6 +2141,7 @@ footer {
     .breadcrumb {
         font-size: .9em;
         padding: 0 .7em;
+        max-width: 480px;
     }
     .current-li {
         font-size: .9em !important;
