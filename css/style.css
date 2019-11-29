@@ -2185,7 +2185,7 @@ footer {
     }
     /*PRODUCTS PAGE*/
     .products-grid-container {
-        grid-template-columns: 1fr 1fr!important;
+        grid-template-columns: 1fr!important;
     }
     .sort-links {
         display: flex;
