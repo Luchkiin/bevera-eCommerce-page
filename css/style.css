@@ -1961,13 +1961,12 @@ footer {
     }
     /*HEADER*/
     .header-container {
-        padding: 0 3.125em;
+        padding: 0 1.563em;
     }
     .upper-header-container {
         display: flex;
         padding-bottom: 2em;
     }
-
     .logo-container {
         flex: 1;
         text-align: center;
@@ -2060,7 +2059,7 @@ footer {
     }
     /*MAIN*/
     .main-container {
-        padding: 0 3.125em;
+        padding: 0 1.563em;
     }
     #index {
         background-color: #f2f2f2;
@@ -2109,7 +2108,7 @@ footer {
     }
     /*FOOTER*/
     .footer-container {
-        padding: 0 3.125em;
+        padding: 0 1.563em;
     }
     .footer-grid-container {
         display: grid;
@@ -2227,9 +2226,14 @@ footer {
     }
     .cta-add-to-cart button {
         padding: .8em 1em;
+        width: 78%;
+    }
+    .cta-add-to-cart input {
+        width: 20%;
     }
     .cta-add-to-wishlist button {
         padding: .8em 1em;
+        width: 100%;
     }
     .product-checkout {
         padding-bottom: 2em;
@@ -2323,7 +2327,7 @@ footer {
     }
     .cta-checkout-btn {
         margin-top: 1em;
-        width: 50%;
+        width: 100%;
         padding: .6em 1em;
     }
     /*CUSTOMER SERVICE PAGE*/
@@ -2359,21 +2363,22 @@ footer {
         text-align: center;
         flex: 1;
     }
-    .icons-align-right a {
-        padding-left: 1em;
+    .icons-align-right {
+        padding-top: .5em;
         flex: 1;
+        text-align: right;
+    }
+    .icons-align-right a {
+        padding-left: .7em;
     }
     .fa-user {
         font-size: 1.2em;
-        padding-top: 2.1em;
     }
     .fa-heart {
         font-size: 1.2em;
-        padding-top: 2.1em;
     }
     .fa-shopping-basket {
         font-size: 1.2em;
-        padding-top: 2.1em;
     }
     .number-cart {
         font-size: 1.2em;
@@ -2417,8 +2422,8 @@ footer {
     }
     .menu-icons {
         display: block;
-        padding-top: 1.4em;
-        flex: 1;
+        padding-top: 1.65em;
+        flex: 1 !important;
     }
     .close-menu {
         display: none !important;
@@ -2744,6 +2749,7 @@ footer {
     }
     .logo-container {
         flex: 1;
+        text-align: center;
     }
     .icons-align-right {
         flex: 1;
