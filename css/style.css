@@ -714,7 +714,7 @@ ul.breadcrumb li a:hover {
 }
 
 .drop-down-option-list select {
-    padding: .8em 5em .8em .5em;
+    padding: .8em;
     font-family: 'Raleway', sans-serif !important;
     font-size: 1em;
 }
