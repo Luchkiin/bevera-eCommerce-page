@@ -405,7 +405,7 @@ main {
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-bottom: .25em;
-    padding-top: 1em;
+    padding-top: 2em;
     border-bottom: 1px solid #BBAC78;
 }
 
@@ -415,7 +415,7 @@ main {
     grid-gap: 2em;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 
 .grid-product-item:hover {
