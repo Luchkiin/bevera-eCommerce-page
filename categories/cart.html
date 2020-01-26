@@ -240,7 +240,7 @@
 
             <div class="cart-heading">
                 <h2>Cart</h2>
-                <p>You have 1 item in your cart</p>
+                <p>You have <span class="bold-style">1</span> item in your cart</p>
             </div>
 
             <div class="cart-grid-container">
@@ -252,18 +252,24 @@
                         <p>Total</p>
                     </div>
                     <div class="cart-grid-row-2">
-                        <a href="../product-pages/whisky/nikka-from-the-barrel.html">
-                            <img src="../images/cart/nikka-from-the-barrel-cart-img.png" alt="Nikka From The Barrel">
-                        </a>
+                        <div class="product-image-cart">
+                            <a href="../product-pages/whisky/nikka-from-the-barrel.html">
+                                <img src="../images/cart/nikka-from-the-barrel-cart-img.png"
+                                    alt="Nikka From The Barrel">
+                            </a>
+                        </div>
                         <div class="product-info-cart">
                             <h2>Nikka from the Barrel</h2>
                             <p>Blended</p>
                             <p>50 cl / 51.4 %</p>
                         </div>
                         <div class="product-info-quantity">
+                            <a href="#">
+                                <i class="fas fa-plus-circle"></i>
+                            </a>
                             <input type="text" maxlength="3" value="1">
                             <a href="#">
-                                <i class="fas fa-trash-alt"></i>
+                                <i class="fas fa-minus-circle"></i>
                             </a>
                         </div>
                         <div class="product-info-total">
@@ -407,7 +413,8 @@
                     <div id="GiftCard" class="tabcontent">
                         <p class="gift-card-info">Enter your gift card number and pin code below.</p>
                         <p>Card Number</p>
-                        <input type="text" class="card-number-input" id="card-number-input" placeholder="XXXX-XXXX-XXXX-XXXX">
+                        <input type="text" class="card-number-input" id="card-number-input"
+                            placeholder="XXXX-XXXX-XXXX-XXXX">
                         <p>PIN Code</p>
                         <input type="text" placeholder="XXXX"><button>Apply</button>
                     </div>
