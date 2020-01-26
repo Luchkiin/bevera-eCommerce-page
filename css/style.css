@@ -1773,6 +1773,9 @@ ul.breadcrumb li a:hover {
 
 .cta-add-to-cart {
     padding: 1em 0;
+}
+
+.cta-add-to-cart button {
     position: relative;
 }
 
@@ -1782,8 +1785,8 @@ ul.breadcrumb li a:hover {
     color: #fcfcfc;
     cursor: pointer;
     position: absolute;
-    left: 34%;
-    bottom: 1.9rem;
+    left: 1em;
+    bottom: .8em;
 }
 
 .cta-add-to-cart input[type="text"] {
