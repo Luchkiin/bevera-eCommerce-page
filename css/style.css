@@ -2452,7 +2452,7 @@ footer {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
     /*GLOBAL STYLES*/
     html, body {
         overflow-x: hidden !important;
@@ -3338,7 +3338,6 @@ footer {
     }
     .logo-img-footer {
         padding-top: 1.25em;
-        width: 50%;
     }
     .footer-grid-container {
         display: grid;
@@ -3346,11 +3345,14 @@ footer {
         grid-column-gap: 2em;
         grid-template-columns: 1fr 2fr;
     }
+    .footer-grid-item1 {
+        text-align: left;
+    }
     .footer-grid-item2 {
-        align-self: flex-end;
+        text-align: right;
         padding-top: 3em;
     }
-    .footer-link {
+    .footer-links {
         align-self: center;
         text-align: right;
     }
