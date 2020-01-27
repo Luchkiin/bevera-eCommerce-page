@@ -1147,6 +1147,7 @@ ul.breadcrumb li a:hover {
     border-bottom: #222222 1px solid;
     padding-bottom: .5em;
 }
+
 .cart-grid-row-2 {
     display: grid;
     width: 100%;
@@ -1278,27 +1279,24 @@ ul.breadcrumb li a:hover {
 
 .delivery-options-grid-item {
     cursor: pointer;
-    padding: 3em 2em 1em 2em;
+    padding: 2em 1em;
+    height: 250px;
     text-align: center;
     border: #BBAC78 1px solid;
     border-radius: 2.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.delivery-options-grid-item-active {
-    cursor: pointer;
-    padding: 3em 2em 1em 2em;
-    text-align: center;
+.delivery-active {
     background-color: #BBAC78;
-    border-radius: 2.5px;
+    color: #222222;
 }
 
 .delivery-options-grid-item:hover {
     background-color: #BBAC78;
     transition: all .25s ease-out;
-}
-
-.products-price-delivery {
-    padding-top: 1em;
 }
 
 .products-price-delivery small {
@@ -1310,6 +1308,70 @@ ul.breadcrumb li a:hover {
     color: #222222;
     font-weight: 700;
     font-size: 1.25em;
+    padding-bottom: .5em;
+}
+
+/*Custom checkbox*/
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    padding-bottom: 1em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 47%;
+    height: 25px;
+    width: 25px;
+    border-radius: 2.5px;
+    border: 1px solid #222222;
+    background-color: #fcfcfc;
+}
+
+.checkbox-container:hover input~.checkmark {
+    background-color: #cecece;
+}
+
+.checkbox-container input:checked~.checkmark {
+    background-color: #4b9560;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid #fcfcfc;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .checkout-container {
@@ -2424,10 +2486,12 @@ footer {
     }
     .drop-down-option-items-country {
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
     .drop-down-option-list-country select {
-        width: 30%;
+        width: 50%;
+        margin: 1em auto 0 auto;
     }
     .delivery-options-grid-container {
         grid-template-columns: 1fr;
@@ -2824,12 +2888,17 @@ footer {
     .product-info-total {
         padding-top: 1em;
     }
+    .country-delivery-container {
+        margin-top: 0;
+    }
     .drop-down-option-items-country {
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
     .drop-down-option-list-country select {
-        width: 30%;
+        width: 50%;
+        margin: 1em auto 0 auto;
     }
     .delivery-options-grid-container {
         grid-template-columns: 1fr;
