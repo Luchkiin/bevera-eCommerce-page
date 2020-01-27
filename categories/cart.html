@@ -365,31 +365,46 @@
             </div>
 
             <div class="delivery-options-grid-container">
-                <div class="delivery-options-grid-item-active">
-                    <h3>Standard Delivery</h3>
-                    <p>2-4 Working Days</p>
+                <div class="delivery-options-grid-item delivery-active">
+                    <div class="products-info-title">
+                        <h3>Standard Delivery</h3>
+                        <p>2-4 Working Days</p>
+                    </div>
                     <div class="products-price-delivery">
                         <p>5.00 &#x20AC;</p>
-                        <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked>
+                        <label class="checkbox-container">
+                            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked>
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                 </div>
 
                 <div class="delivery-options-grid-item">
-                    <h3>Choose a Day</h3>
-                    <p>2-4 Working Days</p>
+                    <div class="products-info-title">
+                        <h3>Choose a Day</h3>
+                        <p>2-4 Working Days</p>
+                    </div>
                     <div class="products-price-delivery">
                         <small>From</small>
                         <p>7.00 &#x20AC;</p>
-                        <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
+                        <label class="checkbox-container">
+                            <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                 </div>
 
                 <div class="delivery-options-grid-item">
-                    <h3>Click & Collect</h3>
-                    <p>2-4 Working Days</p>
+                    <div class="products-info-title">
+                        <h3>Click & Collect</h3>
+                        <p>2-4 Working Days</p>
+                    </div>
                     <div class="products-price-delivery">
                         <p>Free</p>
-                        <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                        <label class="checkbox-container">
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                 </div>
             </div>
@@ -485,7 +500,7 @@
         </div>
     </footer>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/main.js" async></script>
     <script>document.getElementById("defaultOpen").click();</script>
 
 
