@@ -1147,7 +1147,6 @@ ul.breadcrumb li a:hover {
     border-bottom: #222222 1px solid;
     padding-bottom: .5em;
 }
-
 .cart-grid-row-2 {
     display: grid;
     width: 100%;
@@ -2405,8 +2404,23 @@ footer {
     .cart-grid-row-3 {
         justify-content: center;
     }
+    .product-image-cart {
+        text-align: center;
+    }
     .product-info-quantity {
         text-align: center;
+        padding-top: 1em;
+    }
+    .fa-minus-circle {
+        font-size: 1em;
+        padding-left: .25em;
+    }
+    .fa-plus-circle {
+        font-size: 1em;
+        padding-left: .25em;
+    }
+    .product-info-total {
+        padding-top: 1em;
     }
     .drop-down-option-items-country {
         display: flex;
@@ -2800,8 +2814,15 @@ footer {
     .cart-grid-row-3 {
         justify-content: center;
     }
+    .product-image-cart {
+        justify-self: center;
+    }
     .product-info-quantity {
         text-align: center;
+        padding-top: 1em;
+    }
+    .product-info-total {
+        padding-top: 1em;
     }
     .drop-down-option-items-country {
         display: flex;
