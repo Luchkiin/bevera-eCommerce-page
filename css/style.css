@@ -2938,7 +2938,7 @@ footer {
         display: none;
     }
     .menu-icons {
-        flex: 2 !important;
+        flex: 1 !important;
         order: 3;
         display: flex;
         margin-top: .35em;
