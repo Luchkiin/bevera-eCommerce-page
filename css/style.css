@@ -151,12 +151,6 @@ header {
     font-weight: 700;
 }
 
-.number-wishlist {
-    padding-left: .2em;
-    font-size: 1.3em;
-    font-weight: 700;
-}
-
 /*Navigation*/
 
 nav {
@@ -1083,7 +1077,7 @@ ul.breadcrumb li a:hover {
     font-size: 1em;
     padding: .8em 0;
     color: #FCFCFC;
-    width: 50%;
+    width: 100%;
     cursor: pointer;
     text-align: center;
     font-family: 'Raleway', sans-serif !important;
@@ -1091,6 +1085,9 @@ ul.breadcrumb li a:hover {
     border: none;
     text-transform: uppercase;
     font-weight: 700;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
 .cta-sign-up-btn i {
@@ -1287,6 +1284,9 @@ ul.breadcrumb li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
 .delivery-active {
@@ -1519,6 +1519,7 @@ ul.breadcrumb li a:hover {
 }
 
 .cta-checkout-btn {
+    position: relative;
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
@@ -1533,6 +1534,9 @@ ul.breadcrumb li a:hover {
     background-color: #4b9560;
     text-transform: uppercase;
     font-weight: 700;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
 .cta-checkout-btn:hover {
@@ -1540,33 +1544,12 @@ ul.breadcrumb li a:hover {
     transition: all .5s ease-out;
 }
 
-/*Custom Checkboxes*/
-
-.form-group {
-    display: block;
-    margin-bottom: 15px;
-}
-
-.form-group input {
-    padding: 0;
-    height: initial;
-    width: initial;
-    margin-bottom: 0;
-    display: none;
-    cursor: pointer;
-}
-
-.form-group input:checked {
-    content: '';
-    display: block;
+.fa-cart-plus {
     position: absolute;
-    top: 2px;
-    left: 9px;
-    width: 6px;
-    height: 14px;
-    border: solid #0079bf;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
+    left: 1em;
+    bottom: .8em;
+    color: #FCFCFC;
+    font-size: 1.1em;
 }
 
 /*ABOUT PAGE*/
@@ -2925,7 +2908,7 @@ footer {
     }
     .cta-checkout-btn {
         margin-top: 1em;
-        width: 50%;
+        width: 70%;
         padding: .8em 0;
     }
     /*CUSTOMER SERVICE PAGE*/
@@ -3637,7 +3620,7 @@ footer {
     .cta-checkout-btn {
         margin-top: 1em;
         width: 50%;
-        padding: .6em 1em;
+        padding: .8em 1em;
     }
     /*CUSTOMER SERVICE PAGE*/
     .customer-service-sub-message {
