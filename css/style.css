@@ -2141,6 +2141,10 @@ footer {
     .number-cart {
         font-size: 1.2em;
     }
+    .logo-img-header {
+        width: 69px;
+        height: 77px;
+    }
     /*Navigation*/
     nav {
         padding-bottom: 0;
@@ -2299,6 +2303,10 @@ footer {
     }
     .copyright {
         justify-content: center;
+    }
+    .logo-img-footer {
+        width: 69px;
+        height: 77px;
     }
     /*CATEGORIES PAGE*/
     .breadcrumb {
@@ -2566,6 +2574,10 @@ footer {
     .number-cart {
         font-size: 1.2em;
     }
+    .logo-img-header {
+        width: 69px;
+        height: 77px;
+    }
     /*Navigation*/
     nav {
         padding-bottom: 0;
@@ -2717,6 +2729,10 @@ footer {
     }
     .copyright {
         justify-content: center;
+    }
+    .logo-img-footer {
+        width: 69px;
+        height: 77px;
     }
     /*CATEGORIES PAGE*/
     .breadcrumb {
