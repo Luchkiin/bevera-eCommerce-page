@@ -100,10 +100,12 @@ window.addEventListener("load",function() {
     myTimer = setInterval(function(){plusSlides(1)}, 4000);
 })
 
+/*
 $('.grid-slider').slick({
 	slide: '.grid-slide',
   slidesToShow: 1
 });
+*/
 
 /*TAB FUNCTION*/
 function openTab(evt, tabName) {
