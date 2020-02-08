@@ -1,7 +1,7 @@
 /*---BACK TO TOP BUTTON---*/
 
 mybutton = document.getElementById("myBtn");
-window.onscroll = function() {scrollFunction()};
+body.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
