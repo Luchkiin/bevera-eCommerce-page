@@ -11,7 +11,7 @@
 
 ## About the Project
 
-<img src="https://github.com/Luchkiin/Portfolio/blob/master/images/projects/bevera/bevera-project-overview.png" alt="Logo" width="1280" height="450">
+<img src="https://github.com/Luchkiin/Portfolio/blob/master/images/projects/bevera/bevera-project-overview.png" alt="Logo" width="Auto" height="Auto">
 
 This project acts as a static webpage consisting of HTML, CSS and JavaScript. I created this project as a school project which acts as a eCommerce site for selling alcoholic beverages.
 
