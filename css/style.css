@@ -853,9 +853,11 @@ ul.breadcrumb li a:hover {
     background-color: #BBAC78;
     text-transform: uppercase;
     font-weight: 700;
+    /*
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    */
 }
 
 .cta-create-account-btn i {
@@ -928,9 +930,11 @@ ul.breadcrumb li a:hover {
     background-color: #BBAC78;
     text-transform: uppercase;
     font-weight: 700;
+    /*
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    */
 }
 
 .cta-login-btn i {
@@ -1093,9 +1097,11 @@ ul.breadcrumb li a:hover {
     border: none;
     text-transform: uppercase;
     font-weight: 700;
+    /*
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    */
 }
 
 .cta-sign-up-btn i {
@@ -1542,9 +1548,11 @@ ul.breadcrumb li a:hover {
     background-color: #4b9560;
     text-transform: uppercase;
     font-weight: 700;
+    /*
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    */
 }
 
 .cta-checkout-btn:hover {
@@ -1571,7 +1579,7 @@ ul.breadcrumb li a:hover {
 }
 
 .info-about-headings {
-    border-bottom: 4px solid #BBAC78;
+    border-bottom: 1px solid #BBAC78;
     text-transform: uppercase;
     font-size: .8em;
     padding-top: 2em;
@@ -1627,7 +1635,7 @@ ul.breadcrumb li a:hover {
 }
 
 .h3-customer-service {
-    border-bottom: 2px solid #BBAC78;
+    border-bottom: 1px solid #BBAC78;
     margin-bottom: .5em;
     padding-bottom: .5em;
 }
@@ -1850,9 +1858,11 @@ ul.breadcrumb li a:hover {
     font-weight: bold;
     font-family: 'Raleway', sans-serif !important;
     font-size: 1em;
+    /*
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    */
 }
 
 .cta-add-to-cart button {
@@ -1867,9 +1877,11 @@ ul.breadcrumb li a:hover {
     cursor: pointer;
     font-weight: bold;
     border-radius: 2.5px;
+    /*
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    */
 }
 
 .cta-add-to-cart button:hover {
@@ -1890,9 +1902,11 @@ ul.breadcrumb li a:hover {
     font-weight: 700;
     border-radius: 2.5px;
     width: 60%;
+    /*
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    */
 }
 
 .cta-add-to-wishlist button:hover {
