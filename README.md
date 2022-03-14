@@ -1,19 +1,12 @@
 <br />
-<p align="center">
-  <a href="#">
-    <img src="https://github.com/Luchkiin/bevera-eCommerce-page/blob/master/images/readme-logo.png" alt="Logo" width="150" height="150">
-  </a>
-  <h1 align="center">BEVERA eCommerce Page</h1>
-  <p align="center">
-    :arrow_forward: <a href="https://luchkiin.github.io/bevera-eCommerce-page/" target="_blank"> Live Demo</a>
-  </p>
-</p>
+<h1 align="left">Bevera</h1>
+<p align="left">Website / Alcoholic beverages / Concept</p>
+
+<img src="https://github.com/Luchkiin/portfolio-v3/blob/master/images/works/bevera/bevera_image_big.png" alt="Logo" width="Auto" height="Auto">
 
 ## About the Project
 
-<img src="https://github.com/Luchkiin/portfolio-v2/blob/master/images/og-images/bevera.png" alt="Logo" width="Auto" height="Auto">
-
-This project acts as a static webpage consisting of HTML, CSS and JavaScript. I created this project as a school project which acts as a eCommerce site for selling alcoholic beverages.
+Bevera is a concept online shop that sells alcoholic beverages online which I created during my first year as a systems science student. The website acts as a good starting template for modern e-Commerce sites by incorporating a sleek design with the use of a fresh color palette, good typography, useful navigation, and high-quality images.
 
 ## Built With
 * HTML
@@ -21,5 +14,5 @@ This project acts as a static webpage consisting of HTML, CSS and JavaScript. I 
 * JavaScript
 
 ## Contact
-* :email: <a href="mailto:lr@lucasrosendahl.com">lr@lucasrosendahl.com</a>
-* :globe_with_meridians: <a href="https://lucasrosendahl.com" target="_blank">Portfolio</a>
+* <a href="mailto:lr@lucasrosendahl.com">lr@lucasrosendahl.com</a>
+* <a href="https://lucasrosendahl.com" target="_blank">Portfolio</a>
