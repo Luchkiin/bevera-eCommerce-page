@@ -8,6 +8,8 @@
 
 Bevera is a concept online shop that sells alcoholic beverages online which I created during my first year as a systems science student. The website acts as a good starting template for modern e-Commerce sites by incorporating a sleek design with the use of a fresh color palette, good typography, useful navigation, and high-quality images.
 
+<a href="https://luchkiin.github.io/bevera-ecommerce-page/"> Live Demo</a>
+
 ## Built With
 * HTML
 * CSS
