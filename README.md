@@ -18,3 +18,4 @@ Bevera is a concept online shop that sells alcoholic beverages online which I cr
 ## Contact
 * <a href="mailto:lr@lucasrosendahl.com">lr@lucasrosendahl.com</a>
 * <a href="https://lucasrosendahl.com" target="_blank">Portfolio</a>
+<br />
